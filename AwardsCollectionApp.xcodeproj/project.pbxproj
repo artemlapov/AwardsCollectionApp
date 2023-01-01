@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E8EFB76295B60590057DB2D /* CharmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8EFB75295B60590057DB2D /* CharmedView.swift */; };
 		A89D0931267B76D400C1FB66 /* AwardsCollectionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D0930267B76D400C1FB66 /* AwardsCollectionAppApp.swift */; };
 		A89D0933267B76D400C1FB66 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D0932267B76D400C1FB66 /* MainView.swift */; };
 		A89D0935267B76D600C1FB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A89D0934267B76D600C1FB66 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E8EFB75295B60590057DB2D /* CharmedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharmedView.swift; sourceTree = "<group>"; };
 		A89D092D267B76D400C1FB66 /* AwardsCollectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardsCollectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89D0930267B76D400C1FB66 /* AwardsCollectionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionAppApp.swift; sourceTree = "<group>"; };
 		A89D0932267B76D400C1FB66 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				A8E1B482267B7972005E98AA /* GradientRectangles.swift */,
 				A8E1B484267B7978005E98AA /* PathView.swift */,
 				A8E1B480267B7967005E98AA /* CurvesView.swift */,
+				6E8EFB75295B60590057DB2D /* CharmedView.swift */,
 				A89D0934267B76D600C1FB66 /* Assets.xcassets */,
 				A89D0939267B76D600C1FB66 /* Info.plist */,
 				A89D0936267B76D600C1FB66 /* Preview Content */,
@@ -164,6 +167,7 @@
 				A89D0931267B76D400C1FB66 /* AwardsCollectionAppApp.swift in Sources */,
 				A89D0940267B777E00C1FB66 /* StarterView.swift in Sources */,
 				A8E1B483267B7972005E98AA /* GradientRectangles.swift in Sources */,
+				6E8EFB76295B60590057DB2D /* CharmedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

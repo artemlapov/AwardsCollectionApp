@@ -8,18 +8,22 @@
 import SwiftUI
 
 struct AwardsView: View {
+    private let columns = [GridItem(.adaptive(minimum: 160))]
+
     var body: some View {
         NavigationView {
-            VStack {
                 ScrollView {
-                    GradientRectangles()
-                        .frame(width: 200, height: 200)
-                    PathView()
-                        .frame(width: 200, height: 200)
-                    CurvesView()
-                        .frame(width: 200, height: 200)
+                    LazyVGrid(columns: columns) {
+                        GradientRectangles()
+                            .frame(width: 200, height: 200)
+                        PathView()
+                            .frame(width: 200, height: 200)
+                        CurvesView()
+                            .frame(width: 200, height: 200)
+                        CharmedView()
+                            .frame(width: 200, height: 200)
+                    }
                 }
-            }
             .navigationBarTitle("Awards")
         }
     }
